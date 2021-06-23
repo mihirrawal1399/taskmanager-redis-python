@@ -1,0 +1,51 @@
+.newspaper {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.head{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 25px;
+    width: 50%;
+    border-style: double;
+    border-radius: 15px;
+    border-width: 5px;
+    border-color: rgb(255, 0, 0);
+    background-color: rgb(55, 0, 255);
+    color: aliceblue;
+}
+
+fieldset {
+    background-color: #eeeeee;
+    border-radius: 15px;
+}
+  
+legend {
+    background-color: gray;
+    border-radius: 15px;
+    color: white;
+    padding: 5px 10px;
+}
+  
+input {
+    margin: 5px;
+}
+
+.tasks{
+    background-color: rgb(55, 0, 255);
+    border-radius: 15px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-style: double;
+    border-radius: 15px;
+    border-width: 5px;
+    border-color: rgb(255, 0, 0);
+}
